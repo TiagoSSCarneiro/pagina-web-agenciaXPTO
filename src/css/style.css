@@ -124,7 +124,8 @@ body {
 .conteudo-principal .paineis .titulo {
     color: #fff;
     text-transform: uppercase;
-    font-size: calc(1em + 1vw);
+    font-size: calc(2.7em + 1vw);
+    opacity: 0.7;
 
 }
 
@@ -139,21 +140,31 @@ body {
     text-indent: 100%;
     overflow: hidden;
     transition: all 0.3s;
+    opacity: 0.8;
+    
 }
 
 .conteudo-principal .paineis .seta.btn-voltar {
     left: 20px;
     transform: rotate(180deg);
-    
+     
 }
+
 
 .conteudo-principal .paineis .seta.btn-avancar {
     right: 20px;
+    
 }
 
-.conteudo-principal .paineis .seta:hover {
-    width: 70px;
+.conteudo-principal .paineis .btn-voltar:hover {
+    opacity: 0.5;
+    transform: rotate(180deg) scale(1.8);
+     
 
+}
+.conteudo-principal .paineis .btn-avancar:hover {
+    transform:  scale(1.8);
+     
 }
 
 
