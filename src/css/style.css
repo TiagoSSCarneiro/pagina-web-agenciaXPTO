@@ -288,3 +288,11 @@ body {
     font-size: 15px;
 
 }
+
+@media (max-width: 425px) {
+
+    
+    .conteudo-principal .paineis .titulo {
+        font-size: calc(1em + 1vw);
+    }
+}
