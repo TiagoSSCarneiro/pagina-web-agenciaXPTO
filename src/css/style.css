@@ -124,7 +124,7 @@ body {
 .conteudo-principal .paineis .titulo {
     color: #fff;
     text-transform: uppercase;
-    font-size: calc(2.7em + 1vw);
+    font-size: calc(1em + 1vw);
     opacity: 0.7;
 
 }
@@ -289,10 +289,3 @@ body {
 
 }
 
-@media (max-width: 425px) {
-
-    
-    .conteudo-principal .paineis .titulo {
-        font-size: calc(1em + 1vw);
-    }
-}
