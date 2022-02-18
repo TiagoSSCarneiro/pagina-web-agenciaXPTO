@@ -157,7 +157,7 @@ body {
 }
 
 .conteudo-principal .paineis .btn-voltar:hover {
-    opacity: 0.5;
+   
     transform: rotate(180deg) scale(1.8);
      
 
